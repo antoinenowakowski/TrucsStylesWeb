@@ -1,0 +1,91 @@
+* {
+    margin: 0 auto;
+}
+
+/* Menu de navigation (start) */
+
+.conteneur {
+    display: flex;
+    border: 3px solid rgb(36, 35, 35);
+    background-color: rgb(36, 35, 35);
+}
+
+.element {
+   width: auto;
+   height: 85px;
+}
+
+.element:nth-child(1) {
+    font-size: 2em;
+}
+
+.element:nth-child(2) {
+   font-size: 2em;
+}
+
+.element:nth-child(3) {
+   font-size: 2em;
+}
+
+/* Menu de navigation (end) */
+
+/* Couleur des boutons (start) */
+
+
+   /* Couleur : "Menu" */
+.element:nth-child(1) :hover{
+   color: white;
+}
+
+.element:nth-child(1) :active{
+   color: white;
+}
+
+.element:nth-child(1) :visited{
+   color: white;
+}
+
+.element:nth-child(1) :link{
+   text-decoration: none;
+   color: white;
+}
+
+   /* Couleur : "Mise en page" */
+
+.element:nth-child(2)  :hover{
+   color: white;
+}
+
+.element:nth-child(2) :active{
+   color: white;
+}
+
+.element:nth-child(2) :visited{
+   color: white;
+}
+
+.element:nth-child(2) :link{
+   text-decoration: none;
+   color: white;
+}
+
+   /* Couleur : "Transition css" */
+
+.element:nth-child(3) :hover{
+   color: white;
+}
+
+.element:nth-child(3) :active{
+   color: white;   
+}
+
+.element:nth-child(3) :visited{
+   color: white;  
+}
+
+.element:nth-child(3) :link{
+   text-decoration: none;
+   color: white;
+}
+
+/* couleurs des boutons (end) */

@@ -1,0 +1,12 @@
+* {
+    margin: 0 auto;
+}
+
+section {
+    font-family: arial;
+    font-size: 1.3rem;
+    padding-left: 15px;
+    padding-top: 15px;
+    height: 3200px;
+    background-color: blanchedalmond;
+}

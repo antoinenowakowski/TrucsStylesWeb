@@ -1,0 +1,31 @@
+body {
+    font-family: arial;
+    padding: 90px;
+    font-size: 3em;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    padding: 0 15px;
+}
+
+a::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 2px;
+    background: #4cd3c2;
+    z-index: -1;
+    transition: .2s all;
+}
+
+a:hover::before {
+    width: 100%;
+}
+
+a:hover {
+    color: white;
+}

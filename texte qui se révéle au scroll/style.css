@@ -1,0 +1,19 @@
+div {
+    background-color: green;
+    height: 700px;
+    margin-top: 100px;
+}
+div > h1 {
+    padding-top: 300px;
+}
+.div3 {
+    background-color: red;
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: transform 0.6s ease-in-out,
+    opacity 0.6s ease-in-out;
+}
+.div3.active {
+    transform: translateX(0%);
+    opacity: 1;
+}

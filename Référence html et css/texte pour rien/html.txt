@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="conteneur">
+                    <div class="element">
+                        <a href="index.html">Menu</a>
+                    </div>
+                    <div class="element">
+                        <a href="miseenpage.html">Mise en page Html</a>
+                    </div>
+                    <div class="element">
+                        <a href="transition.html">Transition css</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <section>
+
+        </section>
+    </body>
+</html>

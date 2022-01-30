@@ -1,0 +1,22 @@
+.feature {
+    height: 45vh;
+    width: 10000px;
+    margin: 0;
+}
+
+.feature text {
+    font-size: 20vh;
+    stroke: #000;
+    stroke-width: .5mm;
+    fill: transparent;
+    paint-order: stroke;
+    transition: fill 1s;
+}
+
+.feature text {
+    paint-order: stroke;
+    transition: fill 1s;
+}
+.feature :active text {
+    fill: #000;
+}
